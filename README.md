@@ -21,8 +21,8 @@
     - 수정 처리
 5. 글삭제(/board/delete/{id})
 6. 페이징처리(/board/paging)
-    - /board/paging?page=2
-    - /board/paging/2
+    - /board/paging?page=2 `(추천)`
+    - /board/paging/2 `(비추천)`
     - 게시글 14
         - 한페이지에 5개씩 => 3개
         - 한페이지에 3개씩 => 5개
