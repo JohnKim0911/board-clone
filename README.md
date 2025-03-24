@@ -1,21 +1,14 @@
-> 연습일:  2025.03.23 (일) ~ 
+> 연습일:  2025.03.23 (일) ~ 03.24 (월)
 
-> 유투브 강의 영상: https://youtu.be/YshcPPHClR4?si=GStyMljx0wrbAYyX
+> 참고한 유투브 강의 영상: https://youtu.be/YshcPPHClR4?si=GStyMljx0wrbAYyX
 
 # 개발환경
 1. IDE: IntelliJ IDEA Community
-2. Spring Boot 2.6.13 (나는 3.4.2로 진행)
-3. JDK 11 (나는 17로 진행)
+2. Spring Boot 2.6.13 `(나는 3.4.2로 진행)`
+3. JDK 11 `(나는 17로 진행)`
 4. mysql
 5. Spring Data JPA
 6. Thymeleaf
-
-## mysql DataBase 계정 생성 및 권한 부여
-```
-create database db_codingrecipe;
-create user user_codingrecipe@localhost identified by '1234';
-grant all privileges on db_codingrecipe.* to user_codingrecipe@localhost;
-```
 
 # 게시판 주요기능
 1. 글쓰기(/board/save)
@@ -79,14 +72,9 @@ grant all privileges on db_codingrecipe.* to user_codingrecipe@localhost;
    - 댓글을 입력하면 기존 댓글 목록에 새로 작성한 댓글 추가
    - 댓글용 테이블 필요
 
-
-
-## 참고
-
-### MySQL 명령어
-
+## mysql DataBase 계정 생성 및 권한 부여
 ```
-show databases;
-
-select * from board_table;
+create database db_codingrecipe;
+create user user_codingrecipe@localhost identified by '1234';
+grant all privileges on db_codingrecipe.* to user_codingrecipe@localhost;
 ```
