@@ -18,5 +18,5 @@ spring:
     open-in-view: false
     show-sql: true
     hibernate:
-#      ddl-auto: create #앱 실행할때마다 테이블 재생성
-      ddl-auto: update #기존 데이터 유지
+      ddl-auto: create #앱 실행할때마다 테이블 재생성
+#      ddl-auto: update #기존 데이터 유지
